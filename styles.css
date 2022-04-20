@@ -1,0 +1,48 @@
+h1 {
+    color:darkgoldenrod;
+    text-align: center;
+}
+th {
+    border: 5px dotted red;
+
+    text-align: center;
+    background-color: aqua;
+    width: 150px;
+    height: 50;
+    padding: 20px;
+    margin-left: 40px;
+    font-family:Comic Sans MS, Comic Sans, Tahoma, sans-serif;
+    font-style:bold;
+    font-weight:bolder;
+    font-size: 20px;
+    border-collapse:collapse;
+
+}
+td {
+    border: 5px dotted blue;
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    margin: 40px;
+    font-family:Comic Sans MS, Comic Sans, Tahoma, sans-serif;
+    font-style:bold;
+    font-weight:bolder;
+    font-size: 50px;
+
+}
+
+
+.foo {
+    color:aliceblue; 
+}
+
+table {
+    border: 20px solid gray;
+
+    border-radius: 12px;
+    border-top-color: brown;
+    border-collapse:collapse;
+
+    
+}

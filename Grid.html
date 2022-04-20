@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello title</title>
+    <style>
+        #container {
+            background-color: green;
+            display:grid;
+            padding:20px;
+            grid-column-gap: 20px;
+            grid-row-gap:10px;
+            grid-template-columns: 200px auto 200px;
+        }
+
+        div {
+            background-color: wheat;
+            padding:20px;
+            text-align: center;
+            
+        }
+        @media (min-width:1000px) {
+            div {
+                border-radius: 5px;
+                font-size: 30px;
+            }
+        }
+        @media (max-width:1000px){ 
+            div {
+                border-radius: 50px;
+                font-size: 50px;
+            }
+        }
+    </style>
+</head>
+<body> 
+<div id="container"> 
+    <div>one</div>
+    <div>one</div>
+    <div>one</div>
+    <div>one</div>
+    <div>one</div>
+    <div>one</div>
+  </div>
+</body>
+</html>
