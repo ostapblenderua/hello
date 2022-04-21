@@ -1,16 +1,16 @@
-from re import T
-
-
 s = set() 
 
 s.add(1)
 s.add(3)
 s.add(2)
 
+def script():
+    # program code here...
 
-print(s)
 
-def restart ():
+
+    print(s)
+
     print(f"The set has {len(s)} elemets")
 
     v = int(input("Number"))
@@ -26,16 +26,12 @@ def restart ():
     v = int(input("Number to remove "))
 
     while v > 0:
-     s.remove(len(s))
-    v -= 1 
+        s.remove(len(s))
+        v -= 1 
 
 
 
     print(f"The set {s} \n has {len(s)} elemets")
-
-    
-
-if input("Again? ") == "Yes":
-    restart ()
-
-
+    script()
+  
+script()
