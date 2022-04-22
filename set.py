@@ -15,9 +15,7 @@ def restart ():
     print(f"The script started")
 
 
-    print("Number to add: ")   
-
-    v = check()
+    v = check("Number to add: ")
 
   
 
@@ -29,13 +27,18 @@ def restart ():
 
     print(f"The set {s} \n has {len(s)} elemets")
 
-    print("Number to remove: ")   
 
-    v = check()
+    v = check("Number to remove: ")
 
+    while v > len(s):
+           print("There isn't as much elements in the set")
+           v = check("Number to remove: ")
+  
     while v > 0:
-     s.remove(len(s))
-     v -= 1 
+        s.remove(len(s))
+        v -= 1 
+        
+ 
 
     print(f"The set {s} \n has {len(s)} elemets")
     m = input("Restart? ")

@@ -1,8 +1,9 @@
-def check():
+def check(inputtext):
 
     while True:
         try:
-            v = int(input())
+
+            v = int(input(inputtext))
             print(f"{v} is a number")
         except ValueError:
             print(f"Try again")
